@@ -1,0 +1,20 @@
+name: Test api 
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 
+      - name: install fastapi
+        run: pip install fastapi
+      - name: install b
+        run: pip install pytest
+      - name: install c
+        run: pip install faker
+      - name: install d
+        run: pip install requests
+      - name: install e
+        run: pip install sqlalchemy
+      
+      
