@@ -16,6 +16,8 @@ jobs:
         run: pip install requests
       - name: install e
         run: pip install sqlalchemy
+      - name: install f
+        run: pip install httpx
       - name: run tests
         run: pytest -vv
       
