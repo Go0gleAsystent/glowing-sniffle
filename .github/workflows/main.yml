@@ -19,7 +19,7 @@ jobs:
       - name: install f
         run: pip install httpx
       - name: install g
-        run: pip install pydantic[email]
+        run: pip install pydantic<2.0
       - name: run tests
         run: pytest -vv
       
