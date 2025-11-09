@@ -21,7 +21,7 @@ jobs:
       - name: install g
         run: pip install "pydantic[email]<2.0"
       - name: install h
-        run: pip install jose
+        run: pip install python-jose
       - name: run tests
         run: pytest -vv
       
