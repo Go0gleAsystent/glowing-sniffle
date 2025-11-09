@@ -22,6 +22,8 @@ jobs:
         run: pip install "pydantic[email]<2.0"
       - name: install h
         run: pip install python-jose
+      - name: install i
+        run: pip install passlib[bcrypt]
       - name: run tests
         run: pytest -vv
       
