@@ -18,6 +18,8 @@ jobs:
         run: pip install sqlalchemy
       - name: install f
         run: pip install httpx
+      - name: install g
+        run: pip install pydantic[email]
       - name: run tests
         run: pytest -vv
       
